@@ -73,7 +73,7 @@ const cookData = (foodId) => {
   var b = foodId
   let link = window.location.href;
 
-  link = link.slice(0, link.length - 10);
+  link = link.slice(0, link.length - 9);
   console.log(link);
   url = `${link}/meal.html?name=` + encodeURIComponent(b);
 
