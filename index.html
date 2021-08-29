@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meal DB</title>
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-gray-100">
+   <div class=" mx-auto  px-10 py-10">
+       <h1 class="text-4xl font-bold text-center">Food <span class="text-yellow-600">Pabna</span> </h1>
+   </div>
+   <div class="w-9/12 mx-auto flex  justify-center space-x-2 mb-10">
+       <input class="px-5 py-2 w-9/12 rounded-3xl bg-gray-200 focus:border-none" type="text" id="input-field">
+       <button id="search-btn" class="px-5 py-1 bg-yellow-400 font-bold rounded-2xl hover:bg-yellow-600">Search</button>
+   </div>
+
+   <div class="loader hidden " id="load"></div>
+
+
+   <section id="add-card" class=" space-y-10">
+  
+       <!-- <div>
+           <div>
+               <div>
+                   <img src="" alt="">
+
+               </div>
+               <h2>Name:</h2>
+
+           </div>
+           <div>
+               <h1>Ingredients</h1>
+               <div id="ingredients">
+
+               </div>
+
+           </div>
+       </div> -->
+
+    <!-- class of div that is going to add form the api objects 
+       <div>
+           after the code will be repeated multiple time form the api object  and actually this is react base concept as component 
+            <div class=" flex flex-col md:flex-row  px-5 py-5 bg-gray-200 rounded-3xl w-9/12 mx-auto md:space-x-5">
+                <div class="img md:w-1/4 w-full ">
+                    <img class="w-full" src="https://www.themealdb.com/images/media/meals/1520084413.jpg" alt="">
+                </div>
+                <div class="des md:w-3/4 w-full">
+                    <h2 class="text-2xl font-bold">Name</h2>
+                    <p class="">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aspernatur natus perspiciatis accusantium exercitationem fugiat cum minus nam ea, aut, autem alias officia temporibus illum modi tempora eius? Perspiciatis aperiam totam, culpa molestiae at ex tempora distinctio nulla quaerat voluptatibus veritatis! Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta dolorum ducimus, eum tempore repellat incidunt! Reiciendis repellat quidem provident corporis. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempora commodi ipsa blanditiis autem rerum itaque eum culpa sequi unde placeat!</p>
+                    <a class="px-5 py-1 bg-yellow-400 font-bold rounded-2xl hover:bg-yellow-600" onclick="cookData()">How to cook</a>
+                    <a href="" class="px-5 py-1 bg-yellow-400 font-bold rounded-2xl hover:bg-yellow-600" >Search You tube</a>
+    
+                </div>
+    
+            </div>
+
+       </div> -->
+    
+
+   </section>
+
+   <script src="main.js"></script>
+</body>
+</html>
