@@ -8,7 +8,7 @@ const loadData = () => {
 
   //get the value of the input field 
 
-
+// jhsdhac
   //make the url dynamic 
 
   let url = `https://www.themealdb.com/api/json/v1/1/search.php?s=${food}`
