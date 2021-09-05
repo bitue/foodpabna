@@ -71,7 +71,8 @@ document.getElementById("search-btn").addEventListener("click", loadData)
 
 const cookData = (foodId) => {
   var b = foodId
-  let link = window.location.href;
+  // let link = window.location.href;
+  let link = "https://bitue.github.io/foodpabna/";
 
   link = link.slice(0, link.length - 10);
   console.log(link);
