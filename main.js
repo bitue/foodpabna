@@ -75,7 +75,7 @@ const cookData = (foodId) => {
 
   link = link.slice(0, link.length - 10);
   console.log(link);
-  url = `${link}/meal.html?name=` + encodeURIComponent(b);
+  url = `${link}/src/index.html?name=` + encodeURIComponent(b);
 
 
   window.open(url, '_blank');
